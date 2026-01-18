@@ -20,6 +20,17 @@ A simple full-stack web application designed for scheduling and managing fitness
 * **Config (`DataInitializer.java`):** Startup script that populates the database with sample data if empty.
 * **Exception Handling (`GlobalExceptionHandler.java`):** Centralized handler for uniform API error responses.
 
+### Data Model (`Workout JSON Object`)
+
+```json
+{
+  "id": "64b1f2e5c9e1a2b3c4d5e6f7",
+  "title": "Morning Cardio",
+  "startDate": "2026-01-25T08:00:00",
+  "endDate": "2026-01-25T09:30:00"
+}
+```
+
 ### Frontend (`/frontend`)
 
 * **Week:** Main calendar view managing navigation and weekly date ranges.
